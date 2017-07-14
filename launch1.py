@@ -82,14 +82,14 @@ try:
             postdata8 = json.dumps(data_list8).encode('utf-8')
 
             ##          post(postdata)
-            post_request1 = request.Request(url=url, data=postdat1, headers=headers, method='POST')
-            post_request2 = request.Request(url=url, data=postdat2, headers=headers, method='POST')
-            post_request3 = request.Request(url=url, data=postdat3, headers=headers, method='POST')
-            post_request4 = request.Request(url=url, data=postdat4, headers=headers, method='POST')
-            post_request5 = request.Request(url=url, data=postdat5, headers=headers, method='POST')
-            post_request6 = request.Request(url=url, data=postdat6, headers=headers, method='POST')
-            post_request7 = request.Request(url=url, data=postdat7, headers=headers, method='POST')
-            post_request8 = request.Request(url=url, data=postdat8, headers=headers, method='POST')
+            post_request1 = request.Request(url=url, data=postdata1, headers=headers, method='POST')
+            post_request2 = request.Request(url=url, data=postdata2, headers=headers, method='POST')
+            post_request3 = request.Request(url=url, data=postdata3, headers=headers, method='POST')
+            post_request4 = request.Request(url=url, data=postdata4, headers=headers, method='POST')
+            post_request5 = request.Request(url=url, data=postdata5, headers=headers, method='POST')
+            post_request6 = request.Request(url=url, data=postdata6, headers=headers, method='POST')
+            post_request7 = request.Request(url=url, data=postdata7, headers=headers, method='POST')
+            post_request8 = request.Request(url=url, data=postdata8, headers=headers, method='POST')
 
             time.sleep(1)
             try:
